@@ -7,6 +7,6 @@ programa {
   desconto=valor1*0.1
   valor2=valor1-desconto
 
-  escreva("O produto com desconto por 10% ficará por R$ ", valor2)
+  escreva("O produto com desconto de 10% ficará por R$ ", valor2)
   }
 }
