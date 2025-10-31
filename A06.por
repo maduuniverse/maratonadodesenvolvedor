@@ -1,13 +1,20 @@
 programa {
   funcao inicio() {
-  inteiro x
-  escreva("Digite sua idade: ")
+  inteiro x, y, z
+  escreva("Digite seu ano de nascimento: ")
   leia(x)
-  se (x>=18){
-    escreva("Pode ser contratado")
+  escreva("Digite o ano atual: ")
+  leia(y)
+
+  z=y-x
+
+  escreva("Sua idade é ", z, "\n")
+
+  se (z>=18){
+    escreva("Pode ser contratado", "\n")
   
   } 
-  se(x<18){
+  se(z<18){
     escreva("Não pode ser contratado")
   } 
   }
