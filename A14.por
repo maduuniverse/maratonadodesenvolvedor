@@ -6,7 +6,7 @@ programa {
   
   y=x%2
 
-  se(y>=x*2)
+  se(y<=0)
   escreva("O número é par")
   senao
   escreva("O número é ímpar")
