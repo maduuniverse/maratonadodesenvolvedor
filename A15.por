@@ -12,7 +12,7 @@ programa {
   escreva("Digite a senha: ")
   leia(senha)
 
-  se((usuario!=("maduu")) e (senha!=11022004))
+  se((usuario!=("maduu")) ou (senha!=11022004))
   escreva("Usuário ou senha inválidos")
   senao
   escreva("Login bem-sucedido")
