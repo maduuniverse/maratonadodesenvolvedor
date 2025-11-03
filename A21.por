@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
   inteiro codigo, valor
-  cadeia produto
+
   escreva("====Lanchonete====","\n")
   escreva("1-Hotdog","\n","2-Hambúrguer","\n","3-Suco","\n","4-Refrigerante","\n")
   escreva("Digite um código: ")
